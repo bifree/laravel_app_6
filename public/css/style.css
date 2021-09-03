@@ -1,0 +1,278 @@
+.blue {
+    background: rgba(0, 179, 255, 0.906);
+}
+
+.btn-green {
+    background-color: #019E9F;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: rgba(0,198,198,0.8);
+    color: white;
+}
+
+.messagebox {
+    margin: 0 auto;
+}
+
+.messagetab {
+    line-height: 1.6;
+    color: #a0b3ce;
+    background-color: #ebf1f7;
+    background-clip: padding-box;
+    padding: .875rem 1.125rem;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+    font-size: .9rem;
+}
+
+.messagetab-b {
+    line-height: 1.6;
+    color: #a0b3ce;
+    background-color: #ebf1f7;
+    background-clip: padding-box;
+    padding: .875rem 1.125rem;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+    border-bottom-left-radius: .8rem;
+    font-size: .9rem;
+    float: right;
+}
+
+.bms_clear {
+        clear: both; /* 左メッセージと右メッセージの回り込み(float)の効果の干渉を防ぐために必要（これが無いと、自分より下のメッセージにfloatが影響する） */
+
+}
+
+.profile-image > img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.main > img {
+    width: 100%;
+}
+
+.test {
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #333;
+    padding: 0;
+}
+
+.layout {
+    flex-direction: row;
+    display: flex;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.navigation {
+    width: 120px;
+    flex-wrap: nowrap;
+    min-height: 58px;
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+}
+
+.main {
+    /*position: fixed;*/
+    flex: 1;
+    height: 100vh;
+}
+
+.h-100 {
+    height: 100vh;
+}
+
+.me-auto {
+    margin-right: auto;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.card-list .card+.card {
+    margin-top: 1rem;
+}
+
+.input-group > .form-control {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    line-height: 1.6;
+    color: #a0b3ce;
+    background-color: #ebf1f7;
+    border: 2px solid #ebf1f7;
+    background-clip: padding-box;
+}
+
+.form-control-lg {
+    border-radius: .8rem;
+    padding: .875rem 1.125rem;
+    font-size: .9375rem;
+    border-radius: .8rem;
+}
+
+.sidebar {
+    width: 410px;
+}
+
+.avatar {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+.avatar img{
+    border-radius: 50%;
+}
+
+.avatar-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.extra-small {
+    font-size: .665em;
+}
+
+.message-body {
+    line-height: 1.6;
+    color: #95aac9;
+    letter-spacing: -0.003125rem;
+}
+
+.py-lg-8 {
+    padding-top: 1.75rem!important;
+    padding-bottom: 1.75rem!important;
+}
+
+.py-lg-2 {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.nav-link > i{
+    color: #95aac9;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.navbar {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html, body, .layout {
+    height: 100%;
+    overflow-x: hidden!important;
+    font-size: 15px;
+}
+
+.hide-scrollbar {
+    overflow-y: auto;
+    overflow-x: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.badge-circle {
+    position: relative;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+.flex-column {
+    flex-direction: column!important;
+}
+
+.input-group-text {
+    align-items: center;
+    padding: .6rem 1.1rem;
+    font-size: .95rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #a0b3ce;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ebf1f7;
+    border: 2px solid #ebf1f7;
+    border-top-left-radius: .8rem;
+    border-bottom-left-radius: .8rem;
+}
+
+.card {
+    border-radius: .8rem;
+}
+
+textarea.form-control {
+    height: 10rem;
+}
+
+.d-flexbox {
+    display: flexbox;
+}
+
+.mainbox {
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+}
+
+.sidebar {
+    width: 530px;
+}
+
+.post-card {
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.row {
+    margin-left: 0;
+}
+
+.row-2 {
+    /*position: fixed;*/
+    width: 100%;
+}
+
+.wrap-row {
+    flex-flow: row wrap;
+    align-items: center;
+    display: flex;
+}
+
+td {
+    padding: 10px;
+}
+
+.search-box {
+    margin: 0 auto;
+    padding: 0 30px;
+}
