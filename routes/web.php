@@ -32,9 +32,9 @@ Route::get('search', 'SearchUsersController@index')->name('users.search');
 Route::get('posts', 'PostsController@index')->name('posts');
 Route::get('/create','PostsController@create')->name('create');
 Route::post('/store','PostsController@store')->name('posts.store');
-Route::get('/edit','PostsController@edit')->name('posts.edit');
-Route::put('/update','PostsController@update')->name('posts.update');
-Route::delete('/destroy','PostsController@destroy')->name('posts.destroy');
+Route::get('/edit/{id}','PostsController@edit')->name('posts.edit');
+Route::post('/update','PostsController@update')->name('posts.update');
+Route::delete('/destroy/{id}','PostsController@destroy')->name('posts.destroy');
 
 //いいね機能に関するルーティング
 Route::post('favorites','FavoriteController@store')->name('favorites');

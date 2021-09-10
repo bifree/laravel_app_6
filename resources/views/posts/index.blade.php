@@ -18,8 +18,12 @@
                 <div class="text-right"><a href="{{ route('users.show') }}">{{ $post->user->name }}</a></div>
                 <p>{{ $post->body }}</p>
                 <div class="text-right">
-                    <a href="{{ route('posts.edit') }}"><div class="btn btn-primary">編集する</div></a>
-                    <a href="{{ route('posts.destroy') }}"><div class="btn btn-danger">削除する</div></a>
+                    <a href="{{ route('posts.edit', $post->id) }}"><div class="btn btn-primary">編集する</div></a>
+                    <form action="{{route('posts.destroy', $post->id)}}" method="post">
+                        @csrf
+                        @method('delete')
+                        <input type="submit" value="削除する" class="bg-danger btn">
+                    </form>
                 </div>
                 <div class="text-right flex">
                     <form action="{{ route('favorites') }}" method="POST">
