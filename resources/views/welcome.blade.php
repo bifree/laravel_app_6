@@ -5,7 +5,7 @@
     <div class="center jumbotron blue">
 
         <div class="text-center text-white">
-            <h1>Bifree Application</h1>
+            <h1>びふぃ</h1>
         </div>
 
     </div>
